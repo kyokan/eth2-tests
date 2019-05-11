@@ -32,3 +32,6 @@ Optionally, you can indicate a file to store the testnet ID.
 |Prysm |gcr.io/whiteblock/prysm:master| https://github.com/prysmaticlabs/prysm  | 
 
 
+# Contributing
+
+See the TODO file for possible contributions.

@@ -1,0 +1,5 @@
+* Add build to build Dockerfiles on demand
+* Add build to rebuild a Docker image when the repository it depends on changes
+* Add build to push Dockerfiles to Docker hub
+* Add a Jenkinsfile to define a pipeline build with all chains supported
+* Add testing tool to check the beacon chain writes a parseable JSON file
