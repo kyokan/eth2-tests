@@ -2,7 +2,7 @@ CURDIR = $(shell pwd)
 GOBIN = $(CURDIR)/build/bin
 GO ?= latest
 
-.PHONY: all deploy tester
+.PHONY: all deploy tester docker
 
 ifndef VERBOSE
 .SILENT:
@@ -17,3 +17,6 @@ tester:
 
 clean:
 	rm -rf build/bin/
+docker:
+	docker build -t lighthouse:latest -f dockerfiles/lighthouse.Dockerfile .
+	docker build -t prysm:latest -f dockerfiles/prysm.Dockerfile .

@@ -1,2 +1,4 @@
+* Add build for dockerfiles
+* Add dockerfiles for Prysm and Lighthouse
 * Initial commit with a tool to interface with genesis and a network tester.
 
